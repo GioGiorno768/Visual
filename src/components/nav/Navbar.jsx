@@ -11,7 +11,7 @@ const SearchInput = ({ placeholder }) => {
   };
 
   return (
-    <div className="flex items-center justify-center">
+    <div className="flex items-center justify-center sticky">
       <form action="" method="post" className="relative">
         <input
           type="search"
@@ -93,42 +93,26 @@ const Navbar = ({ menu, sosmed }) => {
               <img className="w-28" src={logo} alt="logo" />
             </div>
           </div>
-          <div className="flex items-center">
-            {sosmed.map((e, i) => (
-              <a href="" className="m-1 p-2">
-                <FontAwesomeIcon icon={e} key={i} />
+            <ul
+              id="navbar-list"
+              className="flex w-12 items-center justify-around w-96"
+            >
+              {menu.map((e, i) => (
+                <li className="font-semibold" key={i}>
+                  <a href="">{e}</a>
+                </li>
+              ))}
+            </ul>
+            <SearchInput placeholder="Search..." />
+            <div className="w-16 flex justify-between text-lg">
+              <a href="" className="hover:text-orange-400">
+                <FontAwesomeIcon icon="fa-regular fa-user"  />
               </a>
-            ))}
-          </div>
-        </div>
-      </div>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
-          <Dropdown
-            options={options}
-            selected={selectedOption}
-            onSelectedChange={setSelectedOption}
-          />
-          <ul
-            id="navbar-list"
-            className="flex w-12 items-center justify-around w-80"
-          >
-            {menu.map((e, i) => (
-              <li className="font-semibold" key={i}>
-                <a href="">{e}</a>
-              </li>
-            ))}
-          </ul>
-          <SearchInput placeholder="Search..." />
-          <div className="w-16 flex justify-between text-lg">
-            <a href="">
-              <FontAwesomeIcon icon="fa-regular fa-user" />
-            </a>
-            <a href="">
-              <FontAwesomeIcon icon="fa-solid fa-cart-shopping" />
-            </a>
-          </div>
-          <Button text="Masuk / Daftar" />
+              <a href="" className="hover:text-orange-400">
+                <FontAwesomeIcon icon="fa-solid fa-cart-shopping" />
+              </a>
+            </div>
+            <Button text="Masuk / Daftar" />
         </div>
       </div>
     </nav>

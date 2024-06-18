@@ -2,7 +2,7 @@ import { useState } from "react";
 import Navbar from "./nav/Navbar";
 
 function App() {
-  const menu = ["Home", "Belanja", "Bantuan", "Kontak"];
+  const menu = ["Home", "Belanja", "Riwayat", "Bantuan", "Kontak"];
   const sosmed = [
     "fa-brands fa-facebook-f",
     "fa-brands fa-x-twitter",
