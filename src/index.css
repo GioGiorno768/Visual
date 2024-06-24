@@ -2,3 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+#navbar-list li a.active {
+    color: orange;
+}
+
+#navbar-side2 li a.active {
+    color: orange;
+}
