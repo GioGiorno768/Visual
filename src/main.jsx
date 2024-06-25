@@ -7,6 +7,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import "./assets/lib/fontAwesome";
+import 'boxicons'
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(

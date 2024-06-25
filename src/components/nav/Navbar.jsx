@@ -1,10 +1,10 @@
-import logo from "./logo1.png";
+import logo from "../../../public/img/logo1.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { ButtLink } from "../Button/Button";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
-const SearchInput = ({ placeholder }) => {
+export const SearchInput = ({ placeholder }) => {
   const [query, setQuery] = useState("");
 
   const handleInputChange = (e) => {
@@ -44,9 +44,9 @@ const Navbar = () => {
           </div>
           <ul
             id="navbar-list"
-            className="nav flex w-12 items-center justify-around w-96"
+            className="nav flex w-12 items-center justify-around w-96 text-sm  "
           >
-            <li className="font-semibold hover:text-orange-600 transition-all">
+            <li className="poppins-medium font-semibold hover:text-orange-600 transition-all">
               <NavLink to="/">Beranda</NavLink>
             </li>
             <li className="font-semibold hover:text-orange-600 transition-all ">
@@ -72,7 +72,7 @@ const Navbar = () => {
               </NavLink>
             </li>
           </ul>
-          <ButtLink text="Masuk / Daftar" to="/LoginRegis" />
+          <ButtLink text="Masuk / Daftar" to="/LoginRegis" type="NavLink" />
         </div>
       </div>
     </nav>

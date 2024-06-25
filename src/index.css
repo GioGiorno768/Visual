@@ -2,10 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    font-family: 'Poppins', sans-serif;
+}
+
 #navbar-list li a.active {
-    color: orange;
+  color: orange;
 }
 
 #navbar-side2 li a.active {
-    color: orange;
+  color: orange;
 }
+
+footer {
+    background-color: #1E1E1E;
+}
+
+
