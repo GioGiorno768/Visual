@@ -7,13 +7,14 @@ import Kontak from "./Page/Kontak";
 import Profil from "./Page/Profil";
 import Cart from "./Page/Cart";
 import LoginRegis from "./Page/LoginRegis";
-import Footer from "./Footer/Footer";
+import SmoothScrolling from "../assets/lib/SmoothScrolling";
+import DetailBarang from "./Page/DetailBarang";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+      <SmoothScrolling>
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Belanja" element={<Belanja />} />
@@ -23,8 +24,10 @@ function App() {
           <Route path="/Cart" element={<Cart />} />
           <Route path="/LoginRegis" element={<LoginRegis />} />
         </Routes>
-      </div>
-      <Footer />
+        <Routes>
+          <Route path="/DetailBarang" element={<DetailBarang />} />
+        </Routes>
+      </SmoothScrolling>
     </div>
   );
 }

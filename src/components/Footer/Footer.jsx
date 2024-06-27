@@ -1,10 +1,11 @@
 import { Button } from "../Button/Button";
 import logo from "../../../public/img/logo-2 1.png";
+import logo2 from "../../../public/img/logo 1.svg";
 import playstore from "../../../public/img/google_play 1.svg";
 import appstore from "../../../public/img/app_store 1.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-export default function Footer() {
+export default function Footer({ page }) {
   const alamat = ["64470 Jl Ayani Nganjuk", "64474 Jl Subanjir Sawahan"];
   const kontak = ["techshop@gmail.com", "1-800-654-3210"];
   const kontaklogo = ["fa-regular fa-envelope", "fa-solid fa-phone"];
@@ -47,21 +48,37 @@ export default function Footer() {
     ],
   ];
   return (
-    <footer className="w-full text-white">
+    <footer
+      className={
+        page === "any"
+          ? "w-full bg-lighter text-black"
+          : "w-full bg-darkest text-white"
+      }
+    >
       <div className="max-w-7xl mx-auto px-2 pt-10 sm:px-6 lg:px-8">
         <div className="flex justify-between align-middle">
           <div>
             <h1 className="font-semibold text-2xl">
               Kami Siap <span className="text-orange-400">Membantu!</span>
             </h1>
-            <p className="mt-1 text-gray-400 text-sm">
+            <p
+              className={
+                page === "any"
+                  ? "mt-1 text-gray-500 text-sm"
+                  : "mt-1 text-gray-400 text-sm"
+              }
+            >
               Untuk Informasi Konsultasikan dengan anggota kami
             </p>
           </div>
           <form action="" className="flex align-middle justify-center h-11">
             <input
               type="email"
-              className="text-black px-3 w-64 focus:outline-orange-500"
+              className={
+                page === "any"
+                  ? "text-black px-3 w-64 focus:outline-orange-500 shadow-md shadow-gray-200"
+                  : "text-black px-3 w-64 focus:outline-orange-500 "
+              }
               name="Email"
               id="langganan"
               placeholder="Masukan Email Anda"
@@ -71,10 +88,21 @@ export default function Footer() {
         </div>
         <div className="py-32 flex justify-between">
           <div>
-            <img src={logo} alt="Logo" className="w-36" />
+            <img
+              src={page === "any" ? logo2 : logo}
+              alt="Logo"
+              className="w-36"
+            />
             <div className="py-7">
               {alamat.map((e, i) => (
-                <p className="text-gray-400 text-xs leading-6" key={i}>
+                <p
+                  className={
+                    page === "any"
+                      ? "mt-1 text-gray-500 text-sm"
+                      : "mt-1 text-gray-400 text-sm"
+                  }
+                  key={i}
+                >
                   {e}
                 </p>
               ))}
@@ -84,9 +112,17 @@ export default function Footer() {
                 <div className="mt-2 flex items-center gap-3" key={i}>
                   <FontAwesomeIcon
                     icon={kontaklogo[i]}
-                    className="bg-orange-400 p-3 rounded-full"
+                    className="bg-orange-400 text-white p-3 rounded-full"
                   />
-                  <span className="inline-block text-sm">{e}</span>
+                  <span
+                    className={
+                      page === "any"
+                        ? "inline-block text-sm text-gray-500"
+                        : "inline-block text-sm text-gray-400"
+                    }
+                  >
+                    {e}
+                  </span>
                 </div>
               ))}
             </div>
@@ -114,7 +150,11 @@ export default function Footer() {
                 <div className="pt-5 flex flex-col justify-end">
                   {childfooter[i].map((j, k) => (
                     <p
-                      className="text-xs my-3 cursor-pointer text-gray-400 hover:text-white"
+                      className={
+                        page === "any"
+                          ? "text-xs my-3 cursor-pointer text-gray-500 hover:text-black"
+                          : "text-xs my-3 cursor-pointer text-gray-400 hover:text-white"
+                      }
                       key={k}
                     >
                       {j}
@@ -134,11 +174,11 @@ export default function Footer() {
             Hak Cipta
           </p>
           <div className="flex gap-10">
-            {
-              sosmed.map((e, i) => (
-                <a href={e[1]} key={i} target="__blank"><FontAwesomeIcon icon={e[0]} /></a>
-              ))
-            }
+            {sosmed.map((e, i) => (
+              <a href={e[1]} key={i} target="__blank">
+                <FontAwesomeIcon icon={e[0]} />
+              </a>
+            ))}
           </div>
         </div>
       </div>
