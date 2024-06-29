@@ -36,7 +36,7 @@ const Navbar = () => {
   
   return (
     <nav className="py-3 fixed top-0 w-full m-auto bg-white z-50">
-      <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto sm:px-2 lg:px-3">
         <div className="flex items-center justify-between h-10">
           <div className="flex items-center">
             <div className=" font-bold">
@@ -48,7 +48,7 @@ const Navbar = () => {
             className="nav flex w-12 items-center justify-around w-96 text-sm  "
           >
             <li className="poppins-medium font-semibold hover:text-orange-600 transition-all">
-              <NavLink to="/">Beranda</NavLink>
+              <NavLink to="/" >Beranda</NavLink>
             </li>
             <li className="font-semibold hover:text-orange-600 transition-all ">
               <NavLink to="/Belanja">Belanja</NavLink>
