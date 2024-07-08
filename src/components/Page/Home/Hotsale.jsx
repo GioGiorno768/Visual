@@ -85,7 +85,7 @@ export default function Hotsale({sale}) {
             </div>
             <NavLink
               to="/Cart"
-              className="px-8 py-[10px] border text-orange-400 rounded-full border-orange-400"
+              className="px-8 py-[10px] border hover:bg-orange-400 hover:transition-all hover:duration-200 hover:text-white text-orange-400 rounded-full border-orange-400"
             >
               Beli Sekarang
             </NavLink>

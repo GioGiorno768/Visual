@@ -1,0 +1,332 @@
+[
+  [
+    {
+      "img": "/public/img/produk/img_126 1 (1).svg",
+      "star": 8,
+      "count-star": 140,
+      "nama-produk": "Samsung S10 Ultra",
+      "stok": 50,
+      "hargaDiskon": "10.000.000",
+      "hargaAsli": "13.000.000"
+    },
+    {
+      "img": "/public/img/produk/img_126 1 (2).svg",
+      "star": 8,
+      "count-star": 300,
+      "nama-produk": "Sceptre 24″ Thin 75Hz 1080p LED Monitor",
+      "stok": 60,
+      "hargaDiskon": "2.000.0000",
+      "hargaAsli": "3.000.000"
+    },
+    {
+      "img": "/public/img/produk/img_126 1 (3).svg",
+      "star": 6,
+      "count-star": 200,
+      "nama-produk": "Tab M10 Plus, FHD Tablet, Processor",
+      "stok": 80,
+      "hargaDiskon": "1.000.000",
+      "hargaAsli": "1.700.000"
+    },
+    {
+      "img": "/public/img/produk/img_126 1 (4).svg",
+      "star": 9,
+      "count-star": 100,
+      "nama-produk": "Cosmos Blenz CB-800",
+      "stok": 40,
+      "hargaDiskon": "950.000",
+      "hargaAsli": "1.450.000"
+    },
+    {
+      "img": "/public/img/produk/img_126 1 (5).svg",
+      "star": 8,
+      "count-star": 120,
+      "nama-produk": "Sharp ES-FL 1082",
+      "stok": 50,
+      "hargaDiskon": "3.000.000",
+      "hargaAsli": "3.500.000"
+    },
+    {
+      "img": "/public/img/produk/img_126 1 (6).svg",
+      "star": 9,
+      "count-star": 300,
+      "nama-produk": "Cosmos CB-533",
+      "stok": 50,
+      "hargaDiskon": "1.000.000",
+      "hargaAsli": "1.800.000"
+    },
+    {
+      "img": "/public/img/produk/img_126 1 (7).svg",
+      "star": 6,
+      "count-star": 200,
+      "nama-produk": "Polytron Primadona Giant PWM 03 Series",
+      "stok": 90,
+      "hargaDiskon": "5.000.000",
+      "hargaAsli": "5.700.000"
+    },
+    {
+      "img": "/public/img/produk/img_126 1 (8).svg",
+      "star": 8,
+      "count-star": 100,
+      "nama-produk": "Panasonic MX-GX1442",
+      "stok": 30,
+      "hargaDiskon": "550.000",
+      "hargaAsli": "650.000"
+    },
+    {
+      "img": "/public/img/produk/img_126 1 (9).svg",
+      "star": 8,
+      "count-star": 120,
+      "nama-produk": "SAMSUNG SLIM Y15 1080 4K",
+      "stok": 60,
+      "hargaDiskon": "7.000.000",
+      "hargaAsli": "8.500.000"
+    },
+    {
+      "img": "/public/img/mouse/pngwing 4.svg",
+      "star": 8,
+      "count-star": 300,
+      "nama-produk": "Gaming Mouse Reltex",
+      "stok": 60,
+      "hargaDiskon": "600.000",
+      "hargaAsli": "900.000"
+    },
+    {
+      "img": "/public/img/phone/img_126 1.svg",
+      "star": 7,
+      "count-star": 200,
+      "nama-produk": "SAMSUNG S20 ULTRA",
+      "stok": 80,
+      "hargaDiskon": "13.000.000",
+      "hargaAsli": "13.700.000"
+    },
+    {
+      "img": "/public/img/produk/img_126 1 (10).svg",
+      "star": 9,
+      "count-star": 100,
+      "nama-produk": "Readme fast Charge 20000 mAh",
+      "stok": 30,
+      "hargaDiskon": "250.000",
+      "hargaAsli": "350.000"
+    }
+  ],
+  [
+    {
+      "img": "/public/img/produk/Produk1/img_126 1 (11).svg",
+      "star": 8,
+      "count-star": 120,
+      "nama-produk": "Iphone 11 Pro",
+      "stok": 50,
+      "hargaDiskon": "12.000.000",
+      "hargaAsli": "12.800.000"
+    },
+    {
+      "img": "/public/img/produk/Produk1/img_126 1 (12).svg",
+      "star": 9,
+      "count-star": 300,
+      "nama-produk": "Apple Watch Series 3 iPhone Smartwatch",
+      "stok": 55,
+      "hargaDiskon": "2.100.000",
+      "hargaAsli": "3.500.000"
+    },
+    {
+      "img": "/public/img/produk/Produk1/img_126 1 (13).svg",
+      "star": 6,
+      "count-star": 200,
+      "nama-produk": "Samsung Gear VRr",
+      "stok": 48,
+      "hargaDiskon": "1.200.000",
+      "hargaAsli": "1.900.000"
+    },
+    {
+      "img": "/public/img/produk/Produk1/img_126 1 (14).svg",
+      "star": 9,
+      "count-star": 100,
+      "nama-produk": "Samsung Liquidcrystal Display",
+      "stok": 35,
+      "hargaDiskon": "950.000",
+      "hargaAsli": "1.450.000"
+    },
+    {
+      "img": "/public/img/produk/Produk1/img_126 1 (15).svg",
+      "star": 9,
+      "count-star": 120,
+      "nama-produk": "Televisi AOC International Smart TV LCD LED-backlit",
+      "stok": 94,
+      "hargaDiskon": "2.000.000",
+      "hargaAsli": "2.500.000"
+    },
+    {
+      "img": "/public/img/produk/Produk1/img_126 1 (16).svg",
+      "star": 6,
+      "count-star": 300,
+      "nama-produk": "Acer Aspire Predator Orion 9000 i9",
+      "stok": 60,
+      "hargaDiskon": "10.000.000",
+      "hargaAsli": "10.800.000"
+    },
+    {
+      "img": "/public/img/produk/Produk1/img_126 1 (17).svg",
+      "star": 8,
+      "count-star": 200,
+      "nama-produk": "Macbook Air Pro",
+      "stok": 77,
+      "hargaDiskon": "12.000.000",
+      "hargaAsli": "12.700.000"
+    },
+    {
+      "img": "/public/img/produk/Produk1/img_126 1 (18).svg",
+      "star": 9,
+      "count-star": 100,
+      "nama-produk": "Headphone Audio Cougar Immersa Pro",
+      "stok": 35,
+      "hargaDiskon": "950.000",
+      "hargaAsli": "1.500.000"
+    },
+    {
+      "img": "/public/img/produk/Produk1/img_126 1 (19).svg",
+      "star": 8,
+      "count-star": 120,
+      "nama-produk": "Nintendo Switch PlayStation Video Joy-Con",
+      "stok": 58,
+      "hargaDiskon": "2.000.000",
+      "hargaAsli": "2.500.000"
+    },
+    {
+      "img": "/public/img/produk/Produk1/img_126 1 (20).svg",
+      "star": 9,
+      "count-star": 100,
+      "nama-produk": "Playstation 5",
+      "stok": 50,
+      "hargaDiskon": "9.000.000",
+      "hargaAsli": "9.400.000"
+    },
+    {
+      "img": "/public/img/produk/Produk1/img_126 1 (21).svg",
+      "star": 6,
+      "count-star": 200,
+      "nama-produk": "Keyboard komputer BG Teclado Gaming R-FORCE",
+      "stok": 90,
+      "hargaDiskon": "1.000.000",
+      "hargaAsli": "1.700.000"
+    },
+    {
+      "img": "/public/img/produk/Produk1/img_126 1 (22).svg",
+      "star": 9,
+      "count-star": 100,
+      "nama-produk": "Laptop Msi Ge63 Raider",
+      "stok": 30,
+      "hargaDiskon": "13.250.000",
+      "hargaAsli": "13.500.000"
+    }
+  ],
+  [
+    {
+      "img": "/public/img/produk/img_126 1 (1).svg",
+      "star": 7,
+      "count-star": 140,
+      "nama-produk": "Keyboard komputer BG Teclado Gaming R-FORCE",
+      "stok": 83,
+      "hargaDiskon": "1.000.000",
+      "hargaAsli": "1.700.000"
+    },
+    {
+      "img": "/public/img/produk/img_126 1 (2).svg",
+      "star": 8,
+      "count-star": 300,
+      "nama-produk": "Laptop Msi Ge63 Raider",
+      "stok": 60,
+      "hargaDiskon": "2.000.0000",
+      "hargaAsli": "3.000.000"
+    },
+    {
+      "img": "/public/img/produk/img_126 1 (3).svg",
+      "star": 6,
+      "count-star": 200,
+      "nama-produk": "Tab M10 Plus, FHD Tablet, Processor",
+      "stok": 80,
+      "hargaDiskon": "1.000.000",
+      "hargaAsli": "1.700.000"
+    },
+    {
+      "img": "/public/img/produk/img_126 1 (4).svg",
+      "star": 9,
+      "count-star": 100,
+      "nama-produk": "Cosmos Blenz CB-800",
+      "stok": 40,
+      "hargaDiskon": "950.000",
+      "hargaAsli": "1.450.000"
+    },
+    {
+      "img": "/public/img/produk/img_126 1 (5).svg",
+      "star": 8,
+      "count-star": 120,
+      "nama-produk": "Sharp ES-FL 1082",
+      "stok": 50,
+      "hargaDiskon": "3.000.000",
+      "hargaAsli": "3.500.000"
+    },
+    {
+      "img": "/public/img/produk/img_126 1 (6).svg",
+      "star": 9,
+      "count-star": 300,
+      "nama-produk": "Cosmos CB-533",
+      "stok": 50,
+      "hargaDiskon": "1.000.000",
+      "hargaAsli": "1.800.000"
+    },
+    {
+      "img": "/public/img/produk/img_126 1 (7).svg",
+      "star": 6,
+      "count-star": 200,
+      "nama-produk": "Polytron Primadona Giant PWM 03 Series",
+      "stok": 90,
+      "hargaDiskon": "5.000.000",
+      "hargaAsli": "5.700.000"
+    },
+    {
+      "img": "/public/img/produk/img_126 1 (8).svg",
+      "star": 8,
+      "count-star": 100,
+      "nama-produk": "Panasonic MX-GX1442",
+      "stok": 30,
+      "hargaDiskon": "550.000",
+      "hargaAsli": "650.000"
+    },
+    {
+      "img": "/public/img/produk/img_126 1 (9).svg",
+      "star": 8,
+      "count-star": 120,
+      "nama-produk": "SAMSUNG SLIM Y15 1080 4K",
+      "stok": 60,
+      "hargaDiskon": "7.000.000",
+      "hargaAsli": "8.500.000"
+    },
+    {
+      "img": "/public/img/mouse/pngwing 4.svg",
+      "star": 8,
+      "count-star": 300,
+      "nama-produk": "Gaming Mouse Reltex",
+      "stok": 60,
+      "hargaDiskon": "600.000",
+      "hargaAsli": "900.000"
+    },
+    {
+      "img": "/public/img/phone/img_126 1.svg",
+      "star": 7,
+      "count-star": 200,
+      "nama-produk": "SAMSUNG S20 ULTRA",
+      "stok": 80,
+      "hargaDiskon": "13.000.000",
+      "hargaAsli": "13.700.000"
+    },
+    {
+      "img": "/public/img/produk/img_126 1 (10).svg",
+      "star": 9,
+      "count-star": 100,
+      "nama-produk": "Readme fast Charge 20000 mAh",
+      "stok": 30,
+      "hargaDiskon": "250.000",
+      "hargaAsli": "350.000"
+    }
+  ]
+]

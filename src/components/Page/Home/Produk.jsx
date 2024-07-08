@@ -96,7 +96,7 @@ export default function Produk() {
         </div>
       </div>
       <Barang barang={produkBarang}/>
-      <div className="my-8">
+      <div className="mb-8 mt-14">
         <img src="/public/img/Brand.svg" alt="brand" />
       </div>
     </section>

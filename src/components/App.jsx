@@ -1,19 +1,31 @@
-import { Route, Router, Routes } from "react-router-dom";
+import { Route, Router, Routes, useLocation } from "react-router-dom";
 import Home from "./Page/Home/Home";
-import Belanja from "./Page/Belanja";
+import Belanja from "./Page/Belanja/Belanja";
 import Navbar from "./nav/Navbar";
 import Riwayat from "./Page/Riwayat";
 import Kontak from "./Page/Kontak";
-import Profil from "./Page/Profil";
-import Cart from "./Page/Cart";
+import Profil from "./Page/Profil/Profil";
+import Cart from "./Page/Cart/Cart";
 import LoginRegis from "./Page/LoginRegis";
 import SmoothScrolling from "../assets/lib/SmoothScrolling";
-import DetailBarang from "./Page/DetailBarang";
+import DetailBarang from "./Page/DetailBarang/DetailBarang";
+import { useEffect } from "react";
+
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+};
 
 function App() {
   return (
-    <div className="App">
+    <div className="App overflow-hidden">
       <SmoothScrolling>
+        <ScrollToTop />
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />

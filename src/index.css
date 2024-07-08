@@ -6,6 +6,33 @@
   font-family: "Poppins", sans-serif;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff87179e;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #96500e9e;
+}
+
+select {
+  -moz-appearance: none; /* Firefox */
+  -webkit-appearance: none; /* Safari and Chrome */
+  appearance: none;
+}
+
 #navbar-list li a.active {
   color: orange;
 }
@@ -48,7 +75,6 @@
   height: 0;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-
 }
 
 .slick-slide {
@@ -57,6 +83,8 @@
   padding-right: 20px;
   display: flex;
 }
+
+
 
 /* Styling untuk masing-masing dot */
 .slick-dots li button:before {
@@ -78,3 +106,26 @@
 .slick-dots li {
   margin: 0;
 }
+
+.model button.active {
+  background-color: orange;
+}
+
+
+
+/* .navigation-buttons {
+  margin-bottom: 10px;
+}
+
+.navigation-buttons button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.navigation-buttons button:hover {
+  background-color: #0056b3;
+} */
