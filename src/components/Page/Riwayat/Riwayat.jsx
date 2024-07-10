@@ -196,14 +196,14 @@ export default function Riwayat() {
             <div className="w-full rounded-xl px-20 py-5 mt-4 shadow-xl">
               <Slider {...settings}>
                 <div>
-                  <img src="/public/img/riwayat/Group 96 (1).svg" alt="" />
+                  <img src="/img/riwayat/Group 96 (1).svg" alt="" />
                   
                 </div>
                 <div>
-                  <img src="/public/img/riwayat/Group 97.svg" alt="" />
+                  <img src="/img/riwayat/Group 97.svg" alt="" />
                 </div>
                 <div>
-                <img src="/public/img/riwayat/Group 143.svg" alt="" />
+                <img src="/img/riwayat/Group 143.svg" alt="" />
                 </div>
               </Slider>
             </div>
