@@ -9,10 +9,10 @@ export function Detail() {
   const [modal, setModal] = useState(false);
   const [type, setType] = useState("Laptop/img_103 1 (1).svg");
   const detail = [
-    ["/public/img/Laptop/img_103 1 (1).svg", "model1"],
-    ["/public/img/Laptop/pngwing.com (5) 1.png", "model2"],
-    ["/public/img/produk/img_126 1 (9).svg", "model3"],
-    ["/public/img/Laptop/img_103 1 (1).svg", "modal4"],
+    ["/img/Laptop/img_103 1 (1).svg", "model1"],
+    ["/img/Laptop/pngwing.com (5) 1.png", "model2"],
+    ["/img/produk/img_126 1 (9).svg", "model3"],
+    ["/img/Laptop/img_103 1 (1).svg", "modal4"],
   ];
   const model = ["Slim 7", "Y-50", "P50", "P11", "Y-60"];
   const [isActive, setActive] = useState(0);
@@ -22,7 +22,7 @@ export function Detail() {
       <div className="flex gap-5">
         <div className="w-[470px] h-[470px] flex justify-center items-center border border-gray-500 rounded-md ">
           <img
-            src={"/public/img/" + type}
+            src={"/img/" + type}
             alt="Detail"
             className="w-[75%]"
           />
@@ -34,7 +34,7 @@ export function Detail() {
             onClick={() => setType("Laptop/img_103 1 (1).svg")}
           >
             <img
-              src="/public/img/Laptop/img_103 1 (1).svg"
+              src="/img/Laptop/img_103 1 (1).svg"
               alt="Detail"
               className="w-full h-full"
             /> 
@@ -44,7 +44,7 @@ export function Detail() {
             onClick={() => setType("Laptop/pngwing.com (5) 1.svg")}
           >
             <img
-              src="/public/img/Laptop/pngwing.com (5) 1.svg"
+              src="/img/Laptop/pngwing.com (5) 1.svg"
               alt="Detail"
               className="w-full h-full"
             />
@@ -54,7 +54,7 @@ export function Detail() {
             onClick={() => setType("produk/img_126 1 (9).svg")}
           >
             <img
-              src="/public/img/produk/img_126 1 (9).svg"
+              src="/img/produk/img_126 1 (9).svg"
               alt="Detail"
               className="w-full h-full"
             />
@@ -64,7 +64,7 @@ export function Detail() {
             onClick={() => setType("Laptop/pngwing.com (5) 1 (1).svg")}
           >
             <img
-              src="/public/img/Laptop/pngwing.com (5) 1 (1).svg"
+              src="/img/Laptop/pngwing.com (5) 1 (1).svg"
               alt="Detail"
               className="w-full h-full"
             />

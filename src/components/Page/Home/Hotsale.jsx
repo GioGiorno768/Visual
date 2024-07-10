@@ -16,7 +16,7 @@ export default function Hotsale({sale}) {
         <div className="mt-10">
           <img
             className="m-auto w-[150px]"
-            src="/public/img/kamera/img_27 1.svg"
+            src="/img/kamera/img_27 1.svg"
             alt="kamera"
           />
           <h1 className="font-bold text-center mt-7">
@@ -60,7 +60,7 @@ export default function Hotsale({sale}) {
               </p>
               <p className="inline-block text-[17px] mx-4">
                 <s>2.800.000</s>
-              </p>
+              </p> 
               <span className="inline-block px-4 py-1 rounded-sm text-sm bg-orange-400 text-white">
                 -45%
               </span>
@@ -94,7 +94,7 @@ export default function Hotsale({sale}) {
             <NavLink to="/DetailBarang" className="w-[85%] inline-block">
               <img
                 className=""
-                src="/public/img/Laptop/img_103 1 (1).svg"
+                src="/img/Laptop/img_103 1 (1).svg"
                 alt="laptop"
               />
             </NavLink>

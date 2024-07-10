@@ -43,7 +43,7 @@ export default function Hero({slide, picSlide}) {
         >
           Beli Sekarang &rarr;
         </NavLink>
-        <img src="/public/img/img_57 1.svg" alt="Hp" className="m-auto mt-5" />
+        <img src="/img/img_57 1.svg" alt="Hp" className="m-auto mt-5" />
       </div>
     </section>
   );

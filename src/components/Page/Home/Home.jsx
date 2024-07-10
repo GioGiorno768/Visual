@@ -80,14 +80,14 @@ function Home() {
     autoplaySpeed: 3000,
   };
   const picClock = [
-    "/public/img/img_56 1.svg",
-    "/public/img/img_56 1 (1).svg",
-    "/public/img/img_56 1 (2).svg",
+    "/img/img_56 1.svg",
+    "/img/img_56 1 (1).svg",
+    "/img/img_56 1 (2).svg",
   ];
   const picRecomend = [
-    "/public/img/phone/img_122 1.svg",
-    "/public/img/watch/img_122 1 (1).svg",
-    "/public/img/phone/img_122 1 (2).svg",
+    "/img/phone/img_122 1.svg",
+    "/img/watch/img_122 1 (1).svg",
+    "/img/phone/img_122 1 (2).svg",
   ];
   const descRecomend = [
     ["Diskon 60%", "IPHONE 11 PRO", "Rp 9.000.000"],
@@ -95,10 +95,10 @@ function Home() {
     ["Diskon 60%", "IPHONE 7", "Rp 5.000.000"],
   ];
   const hotsale = [
-    "/public/img/phone/img_126 1.svg",
-    "/public/img/phone/pngwing 3.svg",
-    "/public/img/mouse/pngwing 4.svg",
-    "/public/img/phone/pngwing 5.svg",
+    "/img/phone/img_126 1.svg",
+    "/img/phone/pngwing 3.svg",
+    "/img/mouse/pngwing 4.svg",
+    "/img/phone/pngwing 5.svg",
   ];
   return (
     <div id="Beranda">

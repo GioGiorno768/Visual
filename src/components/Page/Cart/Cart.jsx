@@ -8,7 +8,7 @@ export default function Cart() {
   const [data, setData] = useState([
     {
       id: 1,
-      pict: "/public/img/mouse/pngwing 4.svg",
+      pict: "/img/mouse/pngwing 4.svg",
       name: "Mouse Gaming",
       harga: 300000,
       count: 2,
@@ -16,7 +16,7 @@ export default function Cart() {
     },
     {
       id: 2,
-      pict: "/public/img/Laptop/pngwing.com (5) 1 (1).svg",
+      pict: "/img/Laptop/pngwing.com (5) 1 (1).svg",
       name: "Lenovo YOGA Slim 7",
       harga: 8000000,
       count: 1,
@@ -24,7 +24,7 @@ export default function Cart() {
     },
     {
       id: 3,
-      pict: "/public/img/phone/img_122 1.svg",
+      pict: "/img/phone/img_122 1.svg",
       name: "SAMSUNG S20 ULTRA",
       harga: 13000000,
       count: 2,
@@ -210,7 +210,10 @@ export default function Cart() {
               </div>
             </div>
             <div className="w-full flex justify-end py-5">
-              <NavLink to={"/"} className="py-3 px-5 me-20 hover:bg-orange-600  bg-orange-400 text-white">
+              <NavLink
+                to={"/Transaksi"}
+                className="py-3 px-5 me-20 hover:bg-orange-600  bg-orange-400 text-white"
+              >
                 Proses Pembayaran
               </NavLink>
             </div>

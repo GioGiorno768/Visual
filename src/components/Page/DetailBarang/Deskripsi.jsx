@@ -149,7 +149,7 @@ export default function Deskripsi() {
                   <div>
                     <div className="flex gap-6 mb-2">
                       <img
-                        src="/public/img/profil/artworks-000123105989-jla8r5-t500x500.jpg"
+                        src="/img/profil/artworks-000123105989-jla8r5-t500x500.jpg"
                         alt="pict"
                         className="w-[45px] h-[45px] rounded-full"
                       />
@@ -169,7 +169,7 @@ export default function Deskripsi() {
                     </div>
                     <div className="flex gap-6">
                       <img
-                        src="/public/img/profil/Mask group.svg"
+                        src="/img/profil/Mask group.svg"
                         alt="pict"
                         className="w-[45px] h-[45px] rounded-full"
                       />
@@ -192,7 +192,7 @@ export default function Deskripsi() {
                   <div>
                     <div className="flex gap-6 mb-2">
                       <img
-                        src="/public/img/profil/dito.jpg"
+                        src="/img/profil/dito.jpg"
                         alt="pict"
                         className="w-[45px] h-[45px] rounded-full"
                       />
@@ -212,7 +212,7 @@ export default function Deskripsi() {
                     </div>
                     <div className="flex gap-6">
                       <img
-                        src="/public/img/profil/gojo.jfif"
+                        src="/img/profil/gojo.jfif"
                         alt="pict"
                         className="w-[45px] h-[45px] rounded-full"
                       />
