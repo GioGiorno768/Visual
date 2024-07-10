@@ -37,7 +37,7 @@ export default function Success({isModal, onModal}) {
               <button
                 type="button"
                 className="inline-flex w-full justify-center rounded-md bg-orange-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-orange-400 sm:ml-3 sm:w-auto"
-                onClick={() => window.location.reload()}
+                onClick={onModal}
               >
                 Pergi ke Profil
               </button>

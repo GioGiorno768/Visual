@@ -193,25 +193,17 @@ export default function Riwayat() {
             <h1 className="text-xl font-semibold">
               Pengiriman & <span className="text-orange-400">Pembayaran</span>
             </h1>
-            <div className="w-full  px-20 py-5 mt-4 shadow-xl">
+            <div className="w-full rounded-xl px-20 py-5 mt-4 shadow-xl">
               <Slider {...settings}>
                 <div>
-                  <h3>1</h3>
+                  <img src="/public/img/riwayat/Group 96 (1).svg" alt="" />
+                  
                 </div>
                 <div>
-                  <h3>2</h3>
+                  <img src="/public/img/riwayat/Group 97.svg" alt="" />
                 </div>
                 <div>
-                  <h3>3</h3>
-                </div>
-                <div>
-                  <h3>4</h3>
-                </div>
-                <div>
-                  <h3>5</h3>
-                </div>
-                <div>
-                  <h3>6</h3>
+                <img src="/public/img/riwayat/Group 143.svg" alt="" />
                 </div>
               </Slider>
             </div>

@@ -10,9 +10,6 @@ import Success from "./Success";
 
 export default function Delete({ isModal, onModal }) {
   const [modal, setModal] = useState(false);
-  function closeModal() {
-    setModal(false);
-  }
   function openModal() {
     setModal(true);
   }
@@ -73,7 +70,7 @@ export default function Delete({ isModal, onModal }) {
           </div>
         </div>
       </Dialog>
-      <Success isModal={modal} onModal={closeModal} />
+      <Success isModal={modal} onModal={() => setModal(false)} />
     </div>
   );
 }

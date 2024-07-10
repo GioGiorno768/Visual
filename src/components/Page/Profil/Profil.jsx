@@ -146,7 +146,7 @@ export default function Profil() {
                   </div>
                 </div>
 
-                <Delete isModal={modal} onModal={closeModal} />
+                <Delete isModal={modal} onModal={() => setModal(false)} />
                 <Example isOpen={isOpen} onClose={closeModal} />
               </div>
             </div>
