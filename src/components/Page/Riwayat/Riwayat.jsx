@@ -1,17 +1,38 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import Count, { Count2 } from "../../Button/Count";
 import Footer from "../../Footer/Footer";
-import Accordion from "../../Button/Accordion";
-import Confirm from "../../modal/Confirm";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+
+// const CustomArrow = (props) => {
+//   const { className, style, onClick } = props;
+//   return (
+//     <div
+//       className={className}
+//       style={{
+//         ...style,
+//         backgroundColor: "orange",
+//         borderRadius: "50%",
+//         display: "flex",
+//         alignItems: "center",
+//         justifyContent: "center",
+//         width: "40px",
+//         height: "40px"
+//       }}
+//       onClick={onClick}
+//     />
+//   );
+// };
 
 export default function Riwayat() {
-  const [open, setOpen] = useState(false);
-  const [bayar, setBayar] = useState(false);
-  function buka() {
-    setBayar(true);
-  }
+  var settings = {
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+  };
   const cart = [
     {
       no: 1,
@@ -106,8 +127,16 @@ export default function Riwayat() {
                         </p>
                       </div>
                       <div className="flex mt-4 items-center">
-                        <h2 className="text-xs text-orange-400 basis-[200px]">Detail <span className="text-gray-400">Transaksi</span></h2>
-                        <NavLink to={"/Belanja"} className="px-5 py-2 bg-orange-400 text-white text-sm">Beli Lagi</NavLink>
+                        <h2 className="text-xs text-orange-400 basis-[200px]">
+                          Detail{" "}
+                          <span className="text-gray-400">Transaksi</span>
+                        </h2>
+                        <NavLink
+                          to={"/Belanja"}
+                          className="px-5 py-2 bg-orange-400 text-white text-sm"
+                        >
+                          Beli Lagi
+                        </NavLink>
                       </div>
                     </div>
                   </div>
@@ -164,131 +193,27 @@ export default function Riwayat() {
             <h1 className="text-xl font-semibold">
               Pengiriman & <span className="text-orange-400">Pembayaran</span>
             </h1>
-            <div className="w-full mt-4 shadow-xl">
-              <div className=" px-5 py-3 rounded-t-lg border-b border-gray-400 ">
-                <h1 className="font-semibold">
-                  Alamat -{" "}
-                  <span className="text-gray-400 font-normal">Lawliet</span>
-                </h1>
-                <p className="text-gray-400 text-xs">
-                  Ds. Gembung Kec. Pagu Kab. Nganjuk Jawa Timur Indonesia
-                </p>
-              </div>
-              <div className=" px-5 py-3 pb-6 rounded-t-lg flex gap-10 border-b border-gray-400">
+            <div className="w-full  px-20 py-5 mt-4 shadow-xl">
+              <Slider {...settings}>
                 <div>
-                  <h1 className="font-semibold">Opsi Pengiriman</h1>
-                  <div className="max-w-md mt-3 relative">
-                    <button
-                      onClick={() => setOpen(!open)}
-                      className="ps-8 pe-4 py-1 text-sm border border-gray-400 rounded-md"
-                    >
-                      <span className="me-10">Reguler (JNE Reguler)</span>{" "}
-                      <FontAwesomeIcon
-                        className="text-sm font-light "
-                        icon="fa-solid fa-chevron-right"
-                      />
-                    </button>
-                    <div
-                      className={`${
-                        open ? "" : "hidden"
-                      } absolute top-10 left-0 w-full rounded-lg text-sm`}
-                    >
-                      <Accordion title="Instant">
-                        <ul className="list-disc list-inside">
-                          <li>SPX Instant</li>
-                          <li>GoSend Instant</li>
-                          <li>GrabExpress Instant</li>
-                        </ul>
-                      </Accordion>
-                      <Accordion title="Same Day">
-                        <ul className="list-disc list-inside">
-                          <li>SPX Sameday</li>
-                          <li>GoSend Sameday</li>
-                          <li>GrabExpress Sameday</li>
-                          <li>Anteraja Sameday</li>
-                        </ul>
-                      </Accordion>
-                      <Accordion title="Next Day">
-                        <ul className="list-disc list-inside">
-                          <li>JNE YES</li>
-                          <li>SiCepat BEST</li>
-                        </ul>
-                      </Accordion>
-                      <Accordion title="Regular">
-                        <ul className="list-disc list-inside">
-                          <li>SPX Standart</li>
-                          <li>J&T Express</li>
-                          <li>Ninja Express</li>
-                          <li>ID Express</li>
-                          <li>JNE Reguler</li>
-                          <li>SiCepat REG</li>
-                        </ul>
-                      </Accordion>
-                      <Accordion title="Kargo">
-                        <ul className="list-disc list-inside">
-                          <li>JNE Trucking (JTR)</li>
-                          <li>J&T Cargo</li>
-                          <li>Sentral Cargo</li>
-                          <li>Antareja Cargo</li>
-                          <li>JNE Cargo</li>
-                          <li>SiCepat Gokil</li>
-                        </ul>
-                      </Accordion>
-                      <Accordion title="Ambil Ditempat">
-                        <ul className="list-disc list-inside">
-                          <li>Indopaket (Ambil di Indomaret)</li>
-                          <li>J&T Jemari</li>
-                          <li>Agen SPX Express</li>
-                          <li>SPX Express Point</li>
-                        </ul>
-                      </Accordion>
-                    </div>
-                  </div>
-                  <p className="text-gray-400 text-xs mt-3">
-                    Estimasi Tiba 20 - 30 January
-                  </p>
+                  <h3>1</h3>
                 </div>
-                <div className="w-80">
-                  <h1 className="font-semibold">Metode Pembayaran</h1>
-                  <div className="max-w-md mt-3 relative">
-                    <button
-                      onClick={() => setOpen(!open)}
-                      className="ps-6 pe-4 py-1 text-sm border border-gray-400 rounded-md"
-                    >
-                      <span className="me-10">Bank Bca</span>{" "}
-                      <FontAwesomeIcon
-                        className="text-sm font-light "
-                        icon="fa-solid fa-chevron-right"
-                      />
-                    </button>
-                    <div
-                      className={`${
-                        open ? "" : "hidden"
-                      } absolute top-10 left-0 w-full bg-white text-sm border border-gray-300 rounded-md`}
-                    >
-                      <button className="border-b border-gray-300 w-full px-6 py-1 text-start">
-                        Bank BCA
-                      </button>
-                      <button className="border-b border-gray-300 w-full px-6 py-1 text-start">
-                        Bank Mandiri
-                      </button>
-                      <button className="border-b border-gray-300 w-full px-6 py-1 text-start">
-                        Bank BNI
-                      </button>
-                      <button className="border-b border-gray-300 w-full px-6 py-1 text-start">
-                        Bank Mandiri
-                      </button>
-                      <button className="border-b border-gray-300 w-full px-6 py-1 text-start">
-                        Bank Syariah Indonesia (BSI)
-                      </button>
-                      <button className="border-b border-gray-300 w-full px-6 py-1 text-start">
-                        Bank lainnya
-                      </button>
-                    </div>
-                  </div>
+                <div>
+                  <h3>2</h3>
                 </div>
-              </div>
-              <div className=" px-5 py-5 rounded-b rounded-s rounded-e rounded-xl flex gap-10 border-b-gray-400"></div>
+                <div>
+                  <h3>3</h3>
+                </div>
+                <div>
+                  <h3>4</h3>
+                </div>
+                <div>
+                  <h3>5</h3>
+                </div>
+                <div>
+                  <h3>6</h3>
+                </div>
+              </Slider>
             </div>
           </div>
         </div>

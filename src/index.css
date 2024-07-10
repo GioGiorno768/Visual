@@ -49,6 +49,12 @@ select {
   background-color: #1e1e1e;
 }
 
+.slick-prev:before, .slick-next:before {
+  font-size: xx-large;
+  color: #FF8717; /* Ganti warna putih menjadi warna yang diinginkan */
+}
+
+
 .hero-left {
   background-image: url(../img/Group\ 103.svg);
   background-position: center;

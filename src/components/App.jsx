@@ -6,7 +6,7 @@ import Riwayat from "./Page/Riwayat/Riwayat";
 import Kontak from "./Page/Kontak/Kontak";
 import Profil from "./Page/Profil/Profil";
 import Cart from "./Page/Cart/Cart";
-import LoginRegis from "./Page/LoginRegis";
+import LoginRegis from "./Page/LoginRegis/LoginRegis";
 import SmoothScrolling from "../assets/lib/SmoothScrolling";
 import DetailBarang from "./Page/DetailBarang/DetailBarang";
 import { useEffect } from "react";
